@@ -25,3 +25,5 @@
 * 最后经过template，通过ast生成代码
 
 ![这是图片](./assets/05.jpg)
+>## tabable
+* tabable可以理解为一个事件分发系统（订阅发布），然后在call的时候一个个进行触发（通过new Function去执行）
